@@ -13,3 +13,9 @@ print(int(3.14))
 
 print("Convert integer 10 to float")
 print(float(10))
+
+name = "Vladimir"
+profession = "coder"
+
+# string format function
+print(f"I'm {name}. My lifestyle is a {profession}")
