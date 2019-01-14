@@ -26,8 +26,8 @@ if name == "Vladimir" and profession == "coder":
     print("this will execute")
 
 # ternary operator in python --- in JavaScript it would be
-# console.log(name.length > profession.length ? 'bigger' : 'smaller')
-print('bigger' if len(name) > len(profession) else 'smaller')
+# console.log(name.length > profession.length ? "bigger" : "smaller")
+print("bigger" if len(name) > len(profession) else "smaller")
 
 # List manipulation/delete from right and left(-)
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -42,3 +42,10 @@ for number in list:
 some_number = 0
 for number in range(1, 7, 2):
     print(f"for loop with start index = 1, finish index = 7, iterator = 2 {number}")
+
+# add if condition in for loop and break which is going to stop loop after match
+for number in list:
+    if number == 5:
+        print(f"Found number {number}")
+        break
+    print(f"Currently number is {number}")
