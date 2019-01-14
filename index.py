@@ -19,3 +19,8 @@ profession = "coder"
 
 # string format function
 print(f"I'm {name}. My lifestyle is a {profession}")
+
+# check if truthy 
+
+if name == "Vladimir" and profession == "coder":
+    print("this will execute")
