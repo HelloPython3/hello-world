@@ -62,7 +62,14 @@ student = {
 
 try:
     last_name = student["last_name"]
+# key error handling
 except KeyError:
     print("Error finding last name")
-
 print("eception works!!!!")
+
+try:
+    int_plus_string = 3 + name
+# type error handling
+except TypeError:
+    print("can't add diff data types")
+
