@@ -72,4 +72,7 @@ try:
 # type error handling
 except TypeError:
     print("can't add diff data types")
+# except Exceptions handles all types of errors
+except Exception:
+    print("Unknown error")
 
