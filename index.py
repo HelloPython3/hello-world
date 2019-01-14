@@ -35,3 +35,10 @@ list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 # for loop(number is just a variable)
 for number in list:
     print(f"number {number}")
+
+# for loop with range - first argument defines = start interation index, secont argument defines = finish iteration index, third argument defines = increment(default == 1
+
+
+some_number = 0
+for number in range(1, 7, 2):
+    print(f"for loop with start index = 1, finish index = 7, iterator = 2 {number}")
