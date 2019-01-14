@@ -49,3 +49,20 @@ for number in list:
         print(f"Found number {number}")
         break
     print(f"Currently number is {number}")
+
+# define Dictionary(equivalent of object in JavaScript)
+
+student = {
+    'name': "Vladimir",
+    'language': "Phyton",
+    'city': "Tampa"
+}
+
+# exeption block
+
+try:
+    last_name = student["last_name"]
+except KeyError:
+    print("Error finding last name")
+
+print("eception works!!!!")
