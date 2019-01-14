@@ -24,3 +24,7 @@ print(f"I'm {name}. My lifestyle is a {profession}")
 
 if name == "Vladimir" and profession == "coder":
     print("this will execute")
+
+# ternary operator in python --- in JavaScript it would be
+# console.log(name.length > profession.length ? 'bigger' : 'smaller')
+print('bigger' if len(name) > len(profession) else 'smaller')
