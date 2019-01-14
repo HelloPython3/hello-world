@@ -28,3 +28,10 @@ if name == "Vladimir" and profession == "coder":
 # ternary operator in python --- in JavaScript it would be
 # console.log(name.length > profession.length ? 'bigger' : 'smaller')
 print('bigger' if len(name) > len(profession) else 'smaller')
+
+# List manipulation/delete from right and left(-)
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# for loop(number is just a variable)
+for number in list:
+    print(f"number {number}")
